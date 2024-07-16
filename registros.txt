@@ -1,0 +1,4 @@
+Nombre: {nombre}
+Direccion: {direccion}
+Telefono: {telefono}
+----------------------------------------
