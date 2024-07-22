@@ -3,6 +3,7 @@
 #este programa es una registradora de datos, en base a lo que se muestra, terminar la funcionalidad
 #de la interfaz. todo el backend del proyecto ya ha sido trabajado, su deber es terminar la interfaz
 import tkinter as tk
+from tkinter import ttk
 from tkinter import messagebox
 
 def guardar_datos():
@@ -29,9 +30,24 @@ def guardar_datos():
 root = tk.Tk()
 root.title("Registradora de datos")
 root.geometry("400x300")
+#!###################################################################################
+#?variable = modulo.metodo.
+style = ttk.Style() #*configuracion y llamado del estilo.
 
+#?style es una variable y configure el metodo
+#*variable.metodo
+style.configure('Tlabel', #nombre del estilo
+                font = ("Helvetica", 15),#configuracion de la fuente
+                foregroud = "blue",#color del texto
+                background = "yellow", #color del fondo
+                padding = 10 #espacio en pantalla
+                )      
+        #?para configurar un estilo en un objeto en este caso seria
+        #*variable = ttk.objetoausar(interfaz, text="texto", style = "nombredeestilo")
+
+#!###################################################################################
 #terminar interfaz, añadir etiquetas y boton que ejecute el programa.
-nombrelab = tk.Label(root, text="Nombre")
+nombrelab = ttk.Label(root, text="Nombre", style ='Tlabel')
 nombrelab.pack(pady=5)
 entry_nombre = tk.Entry(root)
 entry_nombre.pack(pady= 5)

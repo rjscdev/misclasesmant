@@ -1,0 +1,25 @@
+.imghead{
+    background-color: #6666;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+}
+.about{
+    background-color: #161616;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+}
+.abouttitle{
+    display: block;
+    margin-bottom: 200px;
+    margin-left: 25px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 80px;
+    color: #fff;
+}
+.about h2 {
+    color: #fff;
+}

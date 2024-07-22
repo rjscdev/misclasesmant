@@ -1,0 +1,24 @@
+estructura base de un documento de css:
+estructura de elementos: 
+elemento {
+    atributos: ;
+}
+
+estructura de clases: 
+.clase{
+    atributos: ;
+}
+
+atributos de css: 
+text-aling = alinia el texto donde nosotros queramos
+font-weight = el peso de la fuente
+font-family = familia de la fuente que esta siendo utilizada
+display = como se mostrara el elemento dentro de la pagina
+padding = separacion de el elemento
+gap = espacio entre elementos
+margin = margen que  contendra el elemento
+color = define el color del texto 
+backgroud-color = define el color del fondo del elemento
+
+para importar un documento de css en html se hace uso de la etiqueta <link>
+generalmente la estructura es  <link rel="stylesheet" href="styles.css">

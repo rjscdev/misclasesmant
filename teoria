@@ -1,0 +1,19 @@
+<body> cuerpo de la pagina
+<head> cabezal de pagina
+<p> parrafo
+<h1> para titulos
+<img> imagen
+<button> crear botones
+<a> para añadir links
+<nav>sirve para crear barras de navegacion
+<ul></ul> para crear listas no ordenadas
+<ol></ol> para listas ordenadas
+<li></li> para los elementos de la lista
+
+propiedades:
+
+href="" para linkear objetos 
+style="" para añadir estilos anidados
+src="" para añadir la fuente de un archivos
+alt="" para texto alternativo
+class="" que le asigna una clase a una etiqueta para su posterior uso en css
