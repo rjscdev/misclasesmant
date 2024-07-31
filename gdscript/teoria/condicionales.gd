@@ -1,10 +1,11 @@
-var persona = "juanito"
-var hadesayunado = True
+func ready_():
+    var persona = "juanito"
+    var hadesayunado = True
 
-if hadesayunado:
-    print(persona, "si ha desayunado y tiene energia.")
-else:
-    print(persona, "no ha desayunado, no tiene energia.")
+    if hadesayunado:
+        print(persona, "si ha desayunado y tiene energia.")
+    else:
+        print(persona, "no ha desayunado, no tiene energia.")
     
     pass
 
