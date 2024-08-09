@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div>
+                <h1>BOTON CON MENSAJE</h1>
+            </div>
+            <div>
+                <button onclick="mostraralerta()" class="boton">
+                Haz click aqui</button>
+            </div>
+        </section>
+    </main>
+    <style>
+        .cabecero{
+            align-items:  center;7                 
+            background-color: #6666;
+            color: black;
+            font-weight: 900;
+        }
+        .boton{
+            align-items: center;
+            border-radius: 25px;
+            background-color: blueviolet;
+            color: white;
+            display: flex;
+            font-size: 200;
+        }
+    </style>
+    <script>
+        function mostraralerta(){
+            dato1 = "Hola esto es una variable|"
+            alert(dato1);
+        }
+    </script>
+</body>
+</html>

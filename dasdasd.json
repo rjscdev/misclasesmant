@@ -1,0 +1,19 @@
+{
+    "Datos del Paciente": {
+        "Nombre": "asdas",
+        "Apellido": "dasdasd",
+        "Direcci\u00f3n de Residencia": "asdasdas",
+        "N\u00famero Telef\u00f3nico": "dasdasdas"
+    },
+    "Datos Cl\u00ednicos": {
+        "Peso": "dasdasd",
+        "Altura": "asdas",
+        "Tipo Sangu\u00edneo": "dasdas"
+    },
+    "N\u00famero de Afiliaci\u00f3n": "dasdasd",
+    "Datos del M\u00e9dico": {
+        "Nombre del M\u00e9dico": "asdasdas",
+        "Especialidad": "dasdasd",
+        "Departamento M\u00e9dico": "asdasdasdasd"
+    }
+}
